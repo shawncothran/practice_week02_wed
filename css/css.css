@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  color: #d0d2d3; }
+
+main {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  main::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+figure {
+  margin: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  figure:last-child {
+    margin-right: 0; }
+  figure:nth-child(2n) {
+    margin-right: 0; }
+  figure:nth-child(2n+1) {
+    clear: left; }
+  figure img {
+    width: 100%; }
